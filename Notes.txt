@@ -1,0 +1,33 @@
+Frontend-->React(Facebook),angular(google)
+
+1. CRUD operation
+c-data is created and sent to Database
+r-read the data from the Database
+u-update the data 
+d-delete the data 
+
+2. Fetch the data to the Frontend using the Backend APIs
+
+Backend-->
+
+Database-->
+
+
+HTML:
+
+Tags
+Attributes
+Values
+
+<>--opening Tag
+</>--closing tag
+<pre>
+
+WEB APP CONTENTS:
+Header part
+
+Body part
+
+Footer part
+
+relative 
