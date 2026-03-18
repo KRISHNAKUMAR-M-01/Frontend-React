@@ -31,3 +31,10 @@ Body part
 Footer part
 
 relative 
+
+
+span--inline container to group element for styling.
+=>take the only the size of the content.
+
+div--block line container  to group element for styling.
+=>take the entire width of the viewport

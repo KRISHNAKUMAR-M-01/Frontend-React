@@ -8,6 +8,10 @@
 <body>
     <h1>this is header tag</h1>
     <hr>
+
+    <br><br>
+
+    <h1>Paragraph</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nostrum itaque quasi porro, dignissimos omnis ipsum consequatur perspiciatis unde libero dolorum odio rerum tenetur dicta consectetur nobis tempore corporis iure?</p>
     <pre>
         Lorem ipsum dolor sit amet consectetur 
@@ -21,8 +25,122 @@
          <a href="mailto:abc@gmail.com">mail</a>
          <img src="images/1460729.jpg" alt="" height="200px">
          <audio controls muted loop>
-            <source src="">
+            <source src="audio/V.mp4">
          </audio>
-    
+         <video controls muted loop width="400px">
+                <source src="audio/V.mp4">
+         </video>
+         <hr>
+         <h1>this is <b>bold</b></h1>
+         <h1>this is <i>italic</i></h1>
+         <h1>this is <u>underline</u></h1>
+         <h1>this is <del>deleted</del></h1>
+         <h1>this is <big>big</big></h1>
+         <h1>this is <mark style="background-color: blueviolet;">highlighted</mark></h1>
+         <h1>this is </h1>
+         <hr>
+
+
+         <h1><span style="background-color: aqua;">this is span</span></h1>
+         <h1><div style="background-color: aqua;">this is div</div></h1>
+         <hr>
+
+
+         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, vitae. Quod fugiat dignissimos vitae adipisci laudantium error deleniti culpa. Aliquam a aliquid rerum velit aut architecto illo animi porro, error dignissimos! Blanditiis assumenda quasi magni dignissimos iusto rem? Aliquid eum autem facilis <span style="background-color:green;">reiciendis, ipsa quia ratione consequuntur! Unde ipsam rerum temporibus ipsa quisquam,</span> quam ducimus nam harum laborum ipsum. Veritatis ex quia, quo architecto nesciunt voluptas facilis? Blanditiis iure praesentium eos corrupti quae. Odit, laboriosam debitis, autem doloremque ab similique dolores, voluptate dignissimos minima nulla consequuntur libero. Voluptas laudantium molestiae voluptatibus sequi non blanditiis at voluptate sunt autem, ipsa quos dolorum quia sit perferendis iusto vel deleniti ullam. Provident aliquam, totam laboriosam reiciendis quam assumenda! Excepturi nihil sed incidunt cum ab fugit fugiat eaque obcaecati eius similique. Tempore repellendus consequatur minus quam quod saepe perspiciatis ab veritatis? Accusamus reiciendis rerum dolore dicta? Totam qui minima commodi, recusandae amet odit possimus pariatur maiores voluptatem corrupti vel, nulla voluptatum fuga nam hic excepturi, repellat perferendis tempore officia nemo sed autem nihil ea? Autem est inventore aliquid suscipit eveniet, omnis accusamus vero ut odio aliquam illo consequuntur ducimus, sit facere adipisci tenetur. Veniam adipisci unde fugiat consectetur, sequi eius commodi voluptate earum qui.</p>
+         <hr>
+
+
+         <h1>Unorder list</h1>
+         <ul>
+             <li>mango</li>
+             <li>apple</li>
+             <ul>
+                <li>green</li>
+                <li>red</li>
+             </ul>
+             <li>orange</li>
+         </ul>
+         <hr>
+
+
+         <h1>ordered list</h1>
+         <ol>
+            <li>moday</li>
+            <li>tuesday</li>
+            <li>wednesday</li>
+            <li>thursday</li>
+         </ol>
+         <hr>
+
+         <h1>Table</h1>
+         <table border="1">
+            <tr align="center">
+                <th width="100px">S.no</th>
+                <th width="100px">Name</th>
+                <th width="100px">age</th>
+                <th width="100px">mark</th>
+            </tr>
+            <tr align="center">
+                <td>1</td>
+                <td>Krish</td>
+                <td>21</td>
+                <td>439</td>
+            </tr>
+         </table>
+         <hr>
+         <br><br>
+         
+         <p id="greet"><span style="background-color: aqua;">Hello</span></p>
+
+         <h1>Button</h1>
+            <button style="font-size: 30px; background-color: black; color: white;border-radius: 5px;" onclick="doButtonAction()">click me</button>
+            <button style="font-size: 30px; background-color: black; color: white;border-radius: 5px;" onclick="back()">back</button>
+
+
+            <script>
+                function doButtonAction() {
+                    document.getElementById("greet").innerText = "Welcome to JavaScript";
+                    window.alert("Button clicked!");
+                }
+
+                function back() {
+                    document.getElementById("greet").innerText = "hello";
+                    window.alert("Button clicked!");
+                }
+            </script>
+            <hr>
+
+            <h1>Form</h1>
+            <form action="index.php" method="post">
+
+                <label for="username">Username:</label>
+                <input type="text" name="" id="username" required placeholder="Enter your name" minlength="6" maxlength="20">
+                <br><br>
+
+                <label for="password">password:</label>
+                <input type="password" id="password" required placeholder="Enter your password">
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" required placeholder="acd@example.com">
+                <br><br>
+
+                <label for="Phone">Phone no:</label>
+                <input type="tel" id="Phone" required placeholder="+91 1234567890">
+                <br><br>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" required>
+                <br><br>
+
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" required min="1" max="100">
+                <br><br>
+                <label for=""></label>
+                <input type="submit">
+                <input type="reset">
+            </form>
+
+
 </body>
 </html>
