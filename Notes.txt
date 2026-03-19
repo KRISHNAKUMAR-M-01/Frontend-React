@@ -38,3 +38,61 @@ span--inline container to group element for styling.
 
 div--block line container  to group element for styling.
 =>take the entire width of the viewport
+
+
+
+
+
+CSS:
+
+comment line /**/
+
+way to declare
+
+=>inline
+    <button style="font-size: 30px; background-color: black; color: white;border-radius: 5px;">click me</button>
+
+
+=>internal(inside the Head tag)
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: burlywood;
+            padding: 10px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: lightgray;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+
+=>external(file.css)
+    inside the Head tag
+    By using link tag
+    <link rel="stylesheet" href="style.css">
+
+    id is accessed through #(hashtag)
+    class is accessed through .(dot)
+
+
+
+    color:
+    =>name
+    =>RGB
+    =>hexa
+    =>
+    
