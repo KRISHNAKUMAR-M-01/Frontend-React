@@ -122,3 +122,14 @@ way to declare
         => block-level--> start with a new line/take the full width of the available viewport(h1,div,form,header,footer)
 
         => inline-level--> do not starts from the new line/width is limited to what is needed based on the content.(spam,a,img)
+
+
+
+   position:-> control how element  is placed in a webpage.
+        =>relative - you    
+
+   combinators:-> Explain the relationship between the listed slector
+        space-" " = decesdent
+        > = Child
+        ~ = general sibling
+        + = adjacent sibiling

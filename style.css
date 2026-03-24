@@ -34,7 +34,7 @@ input{
 }
 #box2{
     background-color: blue;
-} */
+} 
 
 #img1{
     float:left;
@@ -65,4 +65,71 @@ span{
     height: 100px;
     
 
+}
+*/
+/* #box{
+    border: 2px solid ;
+    padding: auto;
+    height: auto;
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+} */
+body{
+    margin: 10px;
+    
+}
+/* #box{
+    height: 100%;
+    width: 100%;
+    position: relative;
+
+} 
+#box1{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    background-color: aqua;
+    top: 0px;
+    left: 0px;
+}
+
+#box2{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    background-color: red;
+    top: 0px;
+    right: 0px;
+}
+#box3{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    background-color:black;
+    bottom: 0px;
+    left: 0px;
+}
+#box4{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    background-color: gray;
+    bottom: 0px;
+    right: 0px;
+}
+#box5{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    background-color: aqua;
+    top: 50%;
+    left: 50%;
+}*/
+
+#container{
+    border: 2px solid;
+}
+#container+div>p{
+    background-color: aqua;
 }
