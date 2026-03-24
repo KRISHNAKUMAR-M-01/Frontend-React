@@ -1,4 +1,4 @@
-#h{
+/* #h{
     border-style: dashed;
     border-radius: 5px;
     background-color: burlywood;
@@ -7,4 +7,62 @@
     line-height: 2em;
     border-color: brown;
     border-bottom: dashed black;
+} */
+
+/* h1{
+    text-shadow: 2px  1px red;
+    margin: 0%;
+    border-style: dashed;
+    padding: 10px;
+    width: 20%;
+}
+input{
+    box-shadow: 2px 2px 2px gray;
+    border-radius: 3px;
+} */
+
+/* h1{
+    border-style: double;
+    width: 15%;
+    padding: 50px;
+    margin: auto;
+    margin-top:20%;
+
+}
+#box1{
+    background-color: aqua;
+}
+#box2{
+    background-color: blue;
+} */
+
+#img1{
+    float:left;
+
+}
+#img2{
+    float:right;
+
+}
+body{
+    border-style: dotted;
+    display: flow-root;
+}
+
+div{
+    border-style: double;
+    height: 50px;
+    overflow: hidden;
+    overflow: auto;
+}
+h1{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+}
+span{
+    background-color: aquamarine;
+    height: 100px;
+    
+
 }

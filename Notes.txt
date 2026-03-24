@@ -94,5 +94,31 @@ way to declare
     =>name
     =>RGB
     =>hexa
-    =>
+    =>hsl values
+
+
+    Shadow:
+    1st-horizontal
+    2nd-vertical
+    3rd-blur
+
+    + => right
+    - => left
+
+
+    Margin:
+
+
+    float-> allow elements to flow around it
+
+    Overflow: property that set the desired behaviour when the content not fit in the parent element/box(overflow)
+        =>visible
+        =>hidden
+        =>scroll
+        =>auto
     
+
+    Display:=>property specify an if/how an element is displayed
+        => block-level--> start with a new line/take the full width of the available viewport(h1,div,form,header,footer)
+
+        => inline-level--> do not starts from the new line/width is limited to what is needed based on the content.(spam,a,img)
