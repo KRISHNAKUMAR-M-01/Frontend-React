@@ -1,0 +1,63 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: white;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.box1{
+    width: 35%;
+    height: 50%;
+    background-color:whitesmoke ;
+    position: absolute;
+    top: 25%;
+    left: 32.5%;
+    border-radius: 5px;
+    box-shadow: 1px 1dvh 10px rgba(0,0,0,0.5);
+}
+.box2{
+    width: 100%;
+    height: 25%;
+    background-color:lightskyblue ;
+    position: absolute;
+    top: 0;
+    border-radius: 6px 6px 0 0;
+}
+.box3{
+    width: 100%;
+    height: 20%;
+    background-color:whitesmoke ;
+    position: absolute;
+    border-top: gray solid 1px;
+    bottom: 0;
+    border-radius: 0 0 6px 6px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+}
+.box4{
+    width: 120px;
+    height: 120px;
+    background-image: url("Krish1.jpg");
+    background-size: cover;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+    position: absolute;
+    top: 10%;
+    left: 7%;
+}
+.box5{
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    top: 40%;
+    left: 7%;
+}
+.box5 p{
+    font-size: 20px;
+}       
