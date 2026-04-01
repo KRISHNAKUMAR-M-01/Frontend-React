@@ -126,10 +126,31 @@ way to declare
 
 
    position:-> control how element  is placed in a webpage.
-        =>relative - you    
+        =>relative - you   
+        =>fixed-
+        =>static
+        =>sticky 
 
    combinators:-> Explain the relationship between the listed slector
         space-" " = decesdent
         > = Child
         ~ = general sibling
         + = adjacent sibiling
+
+
+Pseudo-Classes(:  one colon):
+
+Pseudo-Element(::  two colon):-keyword added agfter a selector that used to style specific part of an element
+
+dropdown:
+image gallery:
+flex box:
+
+Transformation:
+
+Animations:
+
+---------------------------------------------------
+
+
+JAVASCRIPT:

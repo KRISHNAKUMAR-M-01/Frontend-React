@@ -125,11 +125,164 @@ body{
     background-color: aqua;
     top: 50%;
     left: 50%;
-}*/
+}
 
 #container{
     border: 2px solid;
 }
 #container+div>p{
     background-color: aqua;
+}*/
+
+/* #atag:hover{
+    color: yellowgreen;
+    font-size: larger;
+    font-style: italic;
+} */
+
+/* #atag:active{
+    color: yellowgreen;
+    font-size: larger;
+    font-style: italic;
+}
+/* #atag:visited{
+    color: yellowgreen;
+    font-size: larger;
+    font-style: italic;
+} */
+/* li:hover{
+    background-color: aqua;
+
+}
+li:not(:hover){
+    background-color: bisque;
+}
+li:nth-child(even){
+    background-color: blueviolet;
+} */ 
+
+
+
+ /*#hello p{
+    background-color: blueviolet;
+    /* display: none; */
+/* } */
+ /* #hello:hover p{
+    display: block;
+    
+} 
+p::first-letter{
+    color: red;
+    font-size: 2rem;
+}
+p::selection{
+    background-color: black;
+    color: white;
+}
+#fruit li::before{
+    
+}
+#apple::after{
+    content: "🍎";
+    margin-left: 5px;
+}
+#mango::after{
+    content: "🥭";
+    margin-left: 5px;
+}
+#orange::after{
+    content: "🍊";
+    margin-left: 5px;
+}
+#fruit li::marker{
+    content: "✔️";
+    margin-right: 5px;
+}
+
+.pagination {
+    text-align: center;
+}
+.pagination a {
+    padding: 10px;
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+}
+.pagination a.active{
+    background-color:blueviolet;
+    border-radius: 5PX;
+    color: white;
+}
+.pagination a:hover:not(.active){
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+
+/* .dropdown{
+    position: relative;
+    display: inline-block;
+} */
+
+/* .dropdown button {
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+.dropdown a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.dropdown .content{
+    background-color: purple;
+    display: none;
+    min-width: 100px;
+    position: absolute;
+    border-radius: 5px;
+    box-shadow: 1px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown:hover .content{
+    display: block;
+} */ 
+.box{
+   width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 5px;
+}
+.container{
+    display: flex;
+    height: 90vh;
+    border: 10px solid;
+    /* justify-content: space-around; */
+    /* justify-content: center; */
+    /* align-items: flex-start; */
+
+    /* gap: 20px; */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: start;
+    column-gap: 1em;
+    row-gap: 1em;
+}
+#box1{
+    background-color: blueviolet;
+}
+#box2{
+    background-color: rgb(153, 99, 203);
+}
+#box3{
+    background-color: rgb(196, 171, 220);
+}
+#box4{
+    background-color: rgb(221, 199, 243);
 }

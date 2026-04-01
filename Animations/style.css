@@ -1,0 +1,93 @@
+/* #box1{
+    width: 250px;
+    height: 250px;
+    border: 5px solid black;
+    font-size: 13em;
+    text-align: center;
+    background-color: lightslategrey;
+
+    transform: translate(50px,50px);
+    transform: rotatez(20deg);
+    transform: scale(1.2);
+} */
+ body{
+    background-color: black;
+ }
+ #box{
+    width: 250px;
+    height: 250px;
+    background-color: lightslategrey;
+    font-size: 13em;
+    text-align: center;
+    animation-name: changeColor;
+    animation-duration: 20s;
+    /* transition: 0.5s; */
+ }
+ @keyframes slideLeft {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(400%);
+    }
+    
+    
+ }
+  @keyframes rotate {
+     from {
+        transform: rotate(50deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+    
+    
+    
+ }
+  @keyframes fade {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    
+    
+ }
+  @keyframes changeColor {
+    0% {
+        background-color: lightslategrey;
+    }
+    5% {
+        background-color: lightcoral;
+    }
+    10% {
+        background-color: lightblue;
+    }
+    15% {
+        background-color: lightgreen;
+    }
+    20% {
+        background-color: lightpink;
+    }
+    25% {
+        background-color: lightyellow;
+    }
+    30% {
+        background-color: lightgray;
+    }
+    35% {
+        background-color: lightcyan;
+    }
+    40% {
+        background-color: lightgoldenrodyellow;
+    }
+    45% {
+        background-color: lightsteelblue;
+    }
+    50% {
+        background-color: lightseagreen;
+    }
+    
+    
+ }
